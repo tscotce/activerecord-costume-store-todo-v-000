@@ -17,7 +17,11 @@ ActiveRecord::Schema.define(version: 3) do
     t.string "location"
     t.string "costume_inventory"
     t.datetime "num_of_employees"
+<<<<<<< HEAD
     t.boolean "still_in_business"
+=======
+    t.string "still_in_business"
+>>>>>>> 625fb919ac1c0a61eb1f15d6214efd80639f9254
     t.datetime "opening_time"
     t.datetime "closing_time"
   end
